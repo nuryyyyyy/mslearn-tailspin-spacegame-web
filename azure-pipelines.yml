@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  AgentPool: 'LocalAgent'
+  name: "LocalAgent"
 
 variables:
   solution: '**/*.sln'
