@@ -15,8 +15,6 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-- bash: |
-    npm config set strict-ssl false
 - task: NuGetToolInstaller@1
 
 - task: NuGetCommand@2
